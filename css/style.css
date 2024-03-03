@@ -30,9 +30,11 @@ footer {
 /* Customize styles for euphonium-related content */
 #introduction,
 #equipment,
+#new_perform,
 #performances,
 #contact #LinkCollection,
-#new_perform {
+#tools
+{
     text-align: center;
 }
 
