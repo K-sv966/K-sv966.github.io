@@ -60,12 +60,13 @@ footer {
     text-align: left;
 }
 
-/* クリックされたときに表示切り替え */
+/* クリックされたときに表示切り替え　基本的にはオフにしておく */
+/*
 #performances h4:hover + ul,
 #performances h4:focus + ul {
     display: block;
 }
-
+*/
 /* レスポンシブデザイン */
 @media only screen and (max-width: 600px) {
     section {
