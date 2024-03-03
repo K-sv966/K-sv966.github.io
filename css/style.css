@@ -33,7 +33,6 @@ footer {
 #performances,
 #contact #LinkCollection,
 #new_perform {
-
     text-align: center;
 }
 
@@ -41,23 +40,19 @@ footer {
 /* 以前のコード... */
 
 #new_perform ul {
-    /* list-style-type: none; */
     text-align: left;
-
 }
 
 /* 各年度の演奏活動のデフォルトは表示 */
 #performances ul {
     display: block;
     list-style: none;
-    /* リストスタイルを無効化 */
 }
 
 /* 各年度の演奏活動のデフォルトは非表示 */
 #performances h4+ul {
-    /* display: none; */
     list-style: none;
-    /* リストスタイルを無効化 */
+    display: none;
 }
 
 /* テキストを左寄せに */
@@ -66,13 +61,17 @@ footer {
 }
 
 /* クリックされたときに表示切り替え */
-/* #performances h4:hover + ul,
+#performances h4:hover + ul,
 #performances h4:focus + ul {
     display: block;
-} */
+}
 
-
-/* 以降のコード... */
+/* レスポンシブデザイン */
+@media only screen and (max-width: 600px) {
+    section {
+        padding: 1em;
+    }
+}
 .per_label {
     text-align: left;
 }
