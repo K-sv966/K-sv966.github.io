@@ -40,11 +40,15 @@ footer {
 }
 
 /* Add more styles as needed */
-/* 以前のコード... */
 
-#new_perform ul {
+
+/* テキストを左寄せに */
+#Qualifications ul,
+#new_perform ul,
+#performances ul li {
     text-align: left;
 }
+
 
 /* 各年度の演奏活動のデフォルトは表示 */
 #performances ul {
@@ -60,10 +64,6 @@ footer {
 
 */
 
-/* テキストを左寄せに */
-#performances ul li {
-    text-align: left;
-}
 
 /* クリックされたときに表示切り替え */
 #performances h4:hover + ul,
